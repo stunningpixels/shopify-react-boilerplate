@@ -4,7 +4,12 @@
     "browser": true,
     "node": true,
   },
+  "plugins": [
+    "liquid-lint"
+  ],
   "rules": {
-      "import/no-unresolved": 0
+      "import/no-unresolved": 0,
+      "quotes": 0,
+      "liquid-lint/force-template-literals-for-liquid": 2
   }
 }

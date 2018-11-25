@@ -1,0 +1,5 @@
+{
+  "name": "eslint-plugin-liquid-lint",
+  "version": "0.0.1",
+  "main": "./index.js"
+}
