@@ -1,0 +1,38 @@
+{
+  "name": "shopify-react-boilerplate",
+  "version": "0.0.1",
+  "description": "A (currently experimental) boilerplate for creating React.JS frontends that render to Shopify templates",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel-node misc/pages.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stunningpixels/shopify-react-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stunningpixels/shopify-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/stunningpixels/shopify-react-boilerplate#readme",
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-wildcard": "^5.0.0",
+    "babel-plugin-root-import": "^6.1.0",
+    "babel-plugin-transform-assets-import-to-string": "^1.2.0"
+  }
+}
