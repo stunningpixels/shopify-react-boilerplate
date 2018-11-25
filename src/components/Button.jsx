@@ -28,7 +28,7 @@ class Button extends Component {
     } = this.state;
 
     return (
-      <button type="button" onClick={this.handleClick}>{ clicked ? 'clicked' : text }</button>
+      <button type="button" onClick={this.handleClick}>{ clicked ? `{{ shop.domain }}` : text }</button>
     );
   }
 }

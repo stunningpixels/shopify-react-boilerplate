@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: path.resolve(__dirname, 'misc/entry.js'),
   output: {
     filename: 'template.js',
@@ -12,9 +12,14 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
+        use: [
+          {
+            loader: 'babel-loader',
+          },
+          {
+            loader: path.resolve(__dirname, 'misc/loader.js'),
+          },
+        ],
       },
     ],
   },
